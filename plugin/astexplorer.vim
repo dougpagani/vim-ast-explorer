@@ -301,8 +301,8 @@ let s:supported_parsers = {
       \         'command': ['node_modules/.bin/esparse', '--loc']
       \       },
       \       'acorn': {
-      \         'test': 'node_modules/.bin/acorn',
-      \         'command': ['node_modules/.bin/acorn', '--locations']
+      \         'test': 'acorn',
+      \         'command': ['acorn', '--locations', '--ecma2018']
       \       },
       \     }
       \   },
