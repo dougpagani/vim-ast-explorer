@@ -1,5 +1,7 @@
 command! ASTExplore call s:ASTExplore()
+nnoremap <leader>ae :ASTViewNode<CR>
 command! ASTViewNode call s:ASTJumpToNode()
+nnoremap <leader>an :ASTViewNode<CR>
 
 highlight AstNode guibg=#000000 ctermbg=3 ctermfg=0
 
