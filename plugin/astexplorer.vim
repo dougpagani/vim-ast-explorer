@@ -1,12 +1,12 @@
 command! ASTExplore call s:ASTExplore()
 command! ASTViewNode call s:ASTJumpToNode()
 
-highlight AstNode guibg=blue ctermbg=blue
+highlight AstNode guibg=#000000 ctermbg=3 ctermfg=0
 
 " TODO: move to syntax file
-highlight AstNodeType guifg=blue ctermfg=blue
-highlight AstNodeDescriptor guifg=green ctermfg=green
-highlight AstNodeValue guifg=red ctermfg=red
+highlight AstNodeType guifg=blue ctermfg=201
+highlight AstNodeDescriptor guifg=blue ctermfg=82
+highlight AstNodeValue guifg=blue ctermfg=123
 
 
 """ --- Helpers --- {{{
